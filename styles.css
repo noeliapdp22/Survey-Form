@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background: url('img/background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+   
+}
+.form-container {
+  width: 60%; 
+  max-width: 600px; 
+  margin: 50px auto; 
+  font-family: 'Lobster', sans-serif;
+    font-size: 16px;
+    text-align: center;
+  background: repeating-linear-gradient(
+  45deg,
+  #ADD8E6, 
+  #87CEEB 10%, 
+  #ADD8E6 20%,
+  #B0E0E6 30% 
+);
+  border-radius: 15px; 
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+
+  h4 {
+    border-top: 2px solid #d3d3d3; 
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 8px;
+    margin-bottom: 20px; 
+  }
+
+  input[type="text"], input[type="email"], input[type="number"],
+  textarea {
+    background-color: #fff;
+    border: 3px solid #ff7f50; 
+    border-radius: 15px;
+    padding: 1px;
+    font-size: 16px;
+    font-family: 'Lobster', sans-serif;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label, input, select, textarea {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+  input[type="submit"] {
+    background-color: #ff7f50; 
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Lobster', sans-serif; 
+    border: none;
+    transition: all 0.3s ease;
+    width: 50%;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6347; 
+    transform: scale(1.05); 
+}

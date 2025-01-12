@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <title>Survey on Reading Habits</title>
+</head>
+<body>
+    <div class="form-container">
+    <h1 id="title">Survey on Reading Habits</h1>
+    <h3>Discover What Type of Reader You Are</h3>
+    <p id="description">Thank you for participating in our survey to learn about reading habits</p>
+    <form id="survey-form">
+        
+        <label for="name" id="name-label">Name: 
+            <input id="name" type="text" placeholder=" Enter your name" required/>
+        </label>
+        <br>
+
+
+        <label for="email" id="email-label">Email: 
+            <input id="email" type="email" placeholder=" Enter your email" required/>
+        </label>
+        <br>
+
+
+        <label for="number" id="number-label"> Age: 
+            <input id="number" type="number" min="18" max="120" placeholder=" Age" required/>
+        </label>
+        <br>
+
+        
+
+        <h4>Which is your favourite book genre?</h4>
+        <select id="dropdown">
+            <option value="" disabled selected >Select an option</option>
+            <option value="Fiction">Fiction </option>
+            <option value="Non-Fiction">Non-Fiction</option>
+            <option value="Science Fiction">Science Fiction</option>
+            <option value="Romance">Romance</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Historical">Historical</option>
+            <option value="YoungAdult">Young Adult</option>
+            
+        </select> <br>
+
+        <h4>How many books do you usually read per month?</h4>
+        <label for="number" id="number-label">Number of books: 
+            <input id="number" type="number" min="1" placeholder=" Books" required/>
+        </label> <br>
+
+        <h4>Do you prefer digital o physical books? </h4>
+        <label for="digital" id="digital-label" > Digital 
+            <input id="digital" type="radio" name="color" value="digital"/>
+        </label> <br>
+        <label for="physical" id="physical-label" > Physical
+            <input id="physical" type="radio" name="color" value="physical"/>
+        </label> <br>
+
+        <h4>Do you enjoy reading in public or at home? </h4>
+        <label for="public" id="public-label" > In public
+            <input id="public" type="checkbox" name="interests" value="public" />
+        </label> <br>
+        <label for="home" id="home-label" > At home
+            <input id="home" type="checkbox" name="interests" value="home" />
+        </label> <br>
+
+
+       
+        <label for="name" id="comments-label" value="comments"> 
+            <textarea id="coments" name="comments" rows="4" cols="50" placeholder= " Aditional commets about your reading habits ..." 
+            ></textarea>
+        </label> <br>
+
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
